@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2152A64720911AB3003A931B /* RunModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2152A64520911AB3003A931B /* RunModel.xcdatamodeld */; };
+		2152A64920911B0A003A931B /* RunData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2152A64820911B0A003A931B /* RunData.swift */; };
 		216F506B208E68BD005B054E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216F506A208E68BD005B054E /* AppDelegate.swift */; };
 		216F506D208E68BD005B054E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216F506C208E68BD005B054E /* ViewController.swift */; };
 		216F5070208E68BD005B054E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216F506E208E68BD005B054E /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2152A64620911AB3003A931B /* RunModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RunModel.xcdatamodel; sourceTree = "<group>"; };
+		2152A64820911B0A003A931B /* RunData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunData.swift; sourceTree = "<group>"; };
 		216F5067208E68BD005B054E /* WarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		216F506A208E68BD005B054E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		216F506C208E68BD005B054E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				216F5071208E68BD005B054E /* Assets.xcassets */,
 				216F5073208E68BD005B054E /* LaunchScreen.storyboard */,
 				216F5076208E68BD005B054E /* Info.plist */,
+				2152A64520911AB3003A931B /* RunModel.xcdatamodeld */,
+				2152A64820911B0A003A931B /* RunData.swift */,
 			);
 			path = WarApp;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				216F506D208E68BD005B054E /* ViewController.swift in Sources */,
+				2152A64720911AB3003A931B /* RunModel.xcdatamodeld in Sources */,
 				216F506B208E68BD005B054E /* AppDelegate.swift in Sources */,
+				2152A64920911B0A003A931B /* RunData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +340,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2152A64520911AB3003A931B /* RunModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2152A64620911AB3003A931B /* RunModel.xcdatamodel */,
+			);
+			currentVersion = 2152A64620911AB3003A931B /* RunModel.xcdatamodel */;
+			path = RunModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 216F505F208E68BD005B054E /* Project object */;
 }
